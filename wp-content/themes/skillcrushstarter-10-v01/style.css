@@ -237,7 +237,7 @@ body {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	background: #fff;
+	background: #E8E0FF;
 	border-top: 6px solid #45ac9d;
 	color: #3b3b3b;
 	font-size: 16px;
@@ -517,7 +517,7 @@ body {
 	border-left: none;
 	height: 3.3em;
 	background: url('img/white-arrow-right.png') no-repeat center #45ac9d;
-	color: #ffffff;
+	color: #E8E0FF;
 	margin-left: -5px;
 	vertical-align: middle;
 }
@@ -548,7 +548,7 @@ body {
 
 /* NEXT / PREV STYLES */
 #navigation {
-	background: #fff;
+	background: #E8E0FF;
 	border: solid #bfbfbf;
 	border-width: 1px 0;
 	clear: both;
@@ -743,7 +743,7 @@ body {
 }
 .home .content {
 	max-width: 600px;
-	background: #ffffff;
+	background: #E8E0FF;
 	padding: 3em;
 }
 .home .main-content {
@@ -799,7 +799,7 @@ body {
 }
 .home .btn {
 	background: #45ac9d;
-	color: #fff;
+	color: #E8E0FF;
 	font: 700 1.125em/3.5 'Montserrat', 'OpenSans', Arial, sans-serif;
 	display: inline-block;
 	height: 3.5em;
