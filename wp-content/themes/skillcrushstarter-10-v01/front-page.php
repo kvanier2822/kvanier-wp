@@ -15,10 +15,10 @@ get_header(); ?>
 			<?php while ( have_posts() ): the_post(); ?>
 				<h1><?php the_title(); ?></h1>
 				<?php the_content(); ?>
-				<div class="social-btns">  <!-- populate or remove as many of these as you want -->
+				<div class="social-btns">  
 					<a href="https://linkedin.com/in/kvanier" class="soc-icon ln"></a>
 					<a href="https://github.com/kvanier2822" class="soc-icon gh"></a>
-					<a href="instagram.com/lordtrashmouth" class="soc-icon in"></a>
+					<a href="https://instagram.com/lordtrashmouth" class="soc-icon in"></a>
 				</div>
 				<a href="<?php echo site_url('/blog/'); ?>" class="btn">View My Blog</a>
 			<?php endwhile; ?>
