@@ -14,9 +14,11 @@
  * @since Skillcrush Starter 2.0
  */
 
+
 get_header(); ?>
 
 <section class="index-page">
+<link href="https://fonts.googleapis.com/css?family=Arimo:400i|Open+Sans+Condensed:300|Playfair+Display" rel="stylesheet">
 	<div class="main-content">
 		<?php if ( have_posts() ): ?>
 			<?php while ( have_posts() ) : the_post(); ?>
