@@ -6,11 +6,12 @@
  * @subpackage Skillcrush_Starter
  * @since Skillcrush Starter 2.0
  */
-<link href="https://fonts.googleapis.com/css?family=Arimo:400i|Open+Sans+Condensed:300|Playfair+Display" rel="stylesheet">
+
 
 get_header(); ?>
 
 <section class="home-page">
+<link href="https://fonts.googleapis.com/css?family=Arimo:400i|Open+Sans+Condensed:300|Playfair+Display" rel="stylesheet">
 	<div class="main-content">
 		<div class="content">
 			<?php while ( have_posts() ): the_post(); ?>
