@@ -710,93 +710,40 @@ body {
 }
 /* End PAGE STYLES */
 
+
 /* HOMEPAGE STYLES */
-.home {
-	width: 100%;
-	background: url(img/free-4.jpg) no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-.home .page-header {
-	display: none;
-}
-.home .content {
-	max-width: 600px;
-	background: #fff;
-	padding: 3em;
-}
-.home .main-content {
-	display: block;
-	width: 100%;
-	padding: 4em 0;
-}
-.home .content h1 {
-	font: 700 2.25em/1.5 'Playfair Display SC', serif;
-	margin: 0 0 1em;
-}
-.home .content p {
-	font: 1em/2 'Arimo', sans-serif;
-	margin-bottom: 2em;
-}
-.home .content p a {
-	font-weight: 600;
-	text-decoration: underline;
-	color: #a01a7d;
-}
-.home .content .social-btns {
-	margin-bottom: 1.875em;
-}
-.home .content .social-btns a {
-	display: inline-block;
-	width: 1.5em;
-	height: 1.5em;
-	margin-right: .5em;
-}
-.home .content .soc-icon.tw {
-	background: url(img/twitter-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .content .soc-icon.fb {
-	background: url(img/facebook-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .content .soc-icon.ln {
-	background: url(img/linkedin-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .content .soc-icon.db {
-	background: url(img/dribbble-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .content .soc-icon.gh {
-	background: url(img/github-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .content .soc-icon.in {
-	background: url(img/instagram-icon.png) no-repeat center 0;
-	background-size: cover;
-}
-.home .btn {
-	background: #fff;
-	color: #ef5d60;
-	font: 700 1.125em/3.5 'Playfair Display SC', serif;
-	display: inline-block;
-	height: 3.5em;
-	width: 100%;
-	padding: 0 1.25em;
+.home-page {
+	background: url("img/free_4.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	height: auto;
+	margin: 0 0 5em;
+	padding: 8em 0;
 	text-align: center;
-	text-decoration: none;
+}
+.hero-content h1 {
+	color: #ec4067;
+	font-family: 'Playfair Display SC';
+	font-weight:bold;
+	font-size: 2em;
+	line-height: 1.5;
+	margin: 0 2%;
+}
+.hero-content h3 {
+	color: #ef5d60;
+	font-family: 'Playfair Display';
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 0 0 3em;
+}
+.button {
+	font: 700 1em/1 'Arimo', sans-serif;
+	color: #fff;
+	background: #000;
+	padding: 1em 3.75em;
+	text-align: center;
 }
 
-/* media queries */
-@media (min-width: 768px) {
-	.home .main-content {
-		float: right;
-	}
-	.home .content {
-		float: right;
-	}
+a.button, a.button:link {
+	color:#fff;
 }
 /* End HOMEPAGE STYLES */
+

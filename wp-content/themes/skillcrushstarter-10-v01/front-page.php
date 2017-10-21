@@ -1,32 +1,26 @@
 <?php
 /**
- * The template for the homepage
+ * The template for displaying the homepage
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
  *
  * @package WordPress
- * @subpackage Skillcrush_Starter
- * @since Skillcrush Starter 2.0
+ * @subpackage Accelerate Marketing
+ * @since Accelerate Marketing 2.0
  */
-
 
 get_header(); ?>
 
-<section class="home-page">
-<link href="https://fonts.googleapis.com/css?family=Arimo:400i|Open+Sans+Condensed:300|Playfair+Display" rel="stylesheet">
-	<div class="main-content">
-		<div class="content">
-		
-			<?php while ( have_posts() ): the_post(); ?>
-				<h1><?php the_title(); ?></h1>
+	<div id="primary" class="home-page hero-content">
+		<div class="main-content" role="main">
+			<?php while ( have_posts() ) : the_post(); ?>
 				<?php the_content(); ?>
-				<div class="social-btns">  
-					<a href="https://linkedin.com/in/kvanier" class="soc-icon ln"></a>
-					<a href="https://github.com/kvanier2822" class="soc-icon gh"></a>
-					<a href="https://instagram.com/lordtrashmouth" class="soc-icon in"></a>
-				</div>
-				<a href="<?php echo site_url('/blog/'); ?>" class="btn">View My Blog</a>
-			<?php endwhile; ?>
-		</div>
-	</div>
-</section>
+				<a class="button" href="<?php echo site_url('/blog/') ?>">View My Blog</a>
+			<?php endwhile; // end of the loop. ?>
+		</div><!-- .main-content -->
+	</div><!-- #primary -->
 
 <?php get_footer(); ?>
