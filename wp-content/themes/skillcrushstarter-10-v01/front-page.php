@@ -14,6 +14,7 @@ get_header(); ?>
 <link href="https://fonts.googleapis.com/css?family=Arimo:400i|Open+Sans+Condensed:300|Playfair+Display" rel="stylesheet">
 	<div class="main-content">
 		<div class="content">
+		
 			<?php while ( have_posts() ): the_post(); ?>
 				<h1><?php the_title(); ?></h1>
 				<?php the_content(); ?>
