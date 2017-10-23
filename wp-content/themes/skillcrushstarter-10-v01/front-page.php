@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<div id="primary" class="home-page hero-content">
 		<div class="main-content" role="main">
-			<?php while ( have_posts() ) : the_post(); ?>
+			
 				<?php the_content(); ?>
 				<a class="button" href="<?php echo site_url('/blog/') ?>">View My Blog</a>
 			<?php endwhile; // end of the loop. ?>

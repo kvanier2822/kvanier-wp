@@ -126,8 +126,8 @@ em,
 i {
 	font-style: italic;
 }
+
 p {
-	background-color: #fff;
 	color: #000;
 	font-size: 21px;
 	font-size: 1em;
@@ -143,15 +143,16 @@ h3,
 h4,
 h5,
 h6 {
-	background-color: #fff;
+	
 	margin: 2em 0 .5em;
 	font: 700 1em/1.75 'Playfair Display', serif;
 	letter-spacing: -0.034em;
 	color: #a01a7d;
 }
 h1 {
-	color: #ef5d60;
+	color: #a01a7d;
 	font: 700 1em/1.75 'Playfair Display SC', serif;
+	font-weight: bold;
 	font-size: 92px;
 	font-size: 1.5em;
 	line-height: 2.25;
@@ -713,7 +714,7 @@ body {
 
 /* HOMEPAGE STYLES */
 .home-page {
-	background: url("img/free_4.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	background: url("img/home-splash.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 	height: auto;
 	margin: 0 0 5em;
 	padding: 8em 0;
@@ -737,7 +738,7 @@ body {
 .button {
 	font: 700 1em/1 'Arimo', sans-serif;
 	color: #fff;
-	background: #000;
+	background: #ec4067;
 	padding: 1em 3.75em;
 	text-align: center;
 }
